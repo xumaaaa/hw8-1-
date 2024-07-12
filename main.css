@@ -1,0 +1,90 @@
+.wrap{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    margin-top: 100px;
+
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 128, 128);
+    animation: animl 1s infinite linear;
+}
+
+@keyframes animl{
+    0%{
+        margin-top: 0px;
+        margin-left: 0px;
+
+    }
+    100%{ 
+        rotate: 90deg;}
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    border-radius: 100% ;
+    background-color: red;
+    animation: animl2 5s infinite alternate;
+}
+
+@keyframes animl2 {
+    0%{
+        margin-top: 0px;
+        scale: 1;
+    }
+    100%{
+        scale: 0.6;    
+    }
+
+   
+}
+
+.box3{
+    width: 50px;
+    height: 200px;
+
+    animation: animl3 1.5s infinite alternate;
+}
+
+@keyframes animl3 {
+    0%{ 
+      background-color: green;
+    }
+
+    25%{
+        background-color: red;
+
+    }
+
+    100%{ 
+        background-color: blue;
+    }
+}
+
+
+.box4{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(165, 42, 42);
+    animation: animl4 1.5s infinite alternate;
+
+}
+
+@keyframes animl4 {
+    0%{
+        rotate: 0deg;
+
+
+    }
+
+    100%{
+        rotate: 45deg;
+    }
+    
+
+
+}
